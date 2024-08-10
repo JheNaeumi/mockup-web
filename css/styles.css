@@ -88,17 +88,19 @@ font-weight: 600;
 .features-section {
 padding: 60px 0;
 }
-
+.features-section h1{
+    font-weight:bold;
+}
 .features-section .title {
   font-size: 2rem;
   margin-bottom: 100px;
-  font-weight:bold;
+ 
   
 }
-.features-section h3 {
+.features-section .feature-item h3 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-weight:500;
+    font-weight:bold;
 }
 
 .features-section p {
@@ -114,9 +116,15 @@ padding: 60px 0;
 .feature-item img {
   height: 160px;
 }
+.about-section h1{
+    font-weight: bold;
+}
 .management{
     padding-top: 80px;
     padding-bottom: 200px;
+}
+.management h1{
+    font-weight: bold;
 }
 .management img{
     padding: 5px;
@@ -133,9 +141,13 @@ padding: 60px 0;
 
 .contact-section {
     padding: 60px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
   
 }
-
+.right{
+    margin-top: 60px;
+}
 .contact-section h2 {
 font-size: 2rem;
 margin-bottom: 20px;
@@ -156,7 +168,24 @@ line-height: 1.8;
 margin-bottom: 20px;
 
 }
+.contact-form {
+background-color: #f8f9fa; 
+padding: 20px;
+border-radius: 10px;
+max-width: 500px; 
+margin: 0 auto; 
+}
+
+.contact-form .form-control {
+width: 80%;
+max-width: 400px;
+margin: 0 auto; 
+}
+.contact-form h2 {
+margin-bottom: 20px;
+}
 .contact-form .btn{
+width: 30%;
 border: none;
 color: white;
 padding: 18px 22px;
